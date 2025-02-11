@@ -9,7 +9,7 @@ Requirements
 Role Variables
 --------------
 
-Version Vector
+Version Lighthouse
 
 Example Playbook
 ----------------
@@ -29,5 +29,3 @@ Author Information
 ------------------
 
 Oleg Guryanov
-
-
