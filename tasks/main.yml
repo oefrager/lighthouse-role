@@ -1,0 +1,10 @@
+---
+- name: Lighthouse config
+  ansible.builtin.git:
+    repo: "https://github.com/VKCOM/lighthouse.git"
+    dest: "/var/www/html/"
+    version: master
+  tags: config_lighthouse
+  notify: Start nginx service
+- name: Flush handlers
+  ansible.builtin.meta: flush_handlers
